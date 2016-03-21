@@ -1,4 +1,8 @@
-$navbar-default-bg: black;
+.navbar {
+    @media (max-width: 400px) {
+        font-size: 1.2em;
+    }
+}
 
 #logo {
     float: left;
@@ -24,6 +28,28 @@ $navbar-default-bg: black;
         height: 475px;
     }
     
+}
+.jumbotron {
+    @media (max-width: 1400px) {
+        height: 400px;
+        width: 760px;
+    }
+     @media (max-width: 1200px) {
+        height: 400px;
+        width: 620px;
+    }
+    @media (max-width: 992px) {
+        height: 400px;
+        width: 720px;
+    }
+    @media (max-width: 768px) {
+        height: 300px;
+        width: 370px;
+    }
+    @media (max-width: 400px) {
+        height: 300px;
+        width: 345px;
+    }
 }
 
 .jumbotron h1, .jumbotron h2{
@@ -83,6 +109,10 @@ $navbar-default-bg: black;
         height: 200px;
         width: 370px;
     }
+    @media (max-width: 400px) {
+        height: 200px;
+        width: 345px;
+    }
 }
 
 #about-pic {
@@ -98,4 +128,12 @@ $navbar-default-bg: black;
     @media (max-width: 768px) {
         width: 370px;
     }
+    @media (max-width: 400px) {
+        height: 200px;
+        width: 345px;
+    }
+}
+
+.well {
+    font-size: 1.2em;
 }
